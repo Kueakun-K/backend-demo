@@ -10,4 +10,6 @@ router.put("/task", (req, res) => controllers.updateTaskController(req, res));
 
 router.delete("/task/:id", (req, res) => controllers.deleteTaskController(req, res));
 
+router.post("/user", (req, res) => controllers.registerController(req, res));
+
 module.exports = router
