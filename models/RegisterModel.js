@@ -5,6 +5,6 @@ const RegisterSchema = mongoose.Schema({
     Password: String,
 })
 
-const RegisterModel = mongoose.model('Register', RegisterSchema)
+const RegisterModel = mongoose.model('User', RegisterSchema)
 
 module.exports = RegisterModel
