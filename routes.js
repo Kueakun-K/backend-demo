@@ -21,9 +21,9 @@ router.post('/login', async (req, res) => {
       Password
     })
     if (user) {
-      return res.render('index', { User })
+      console.log(login_complete);
     } else {
-      return res.render('login', { message: 'Email or Password incorrect' })
+      console.log(login_fail);
     }
   })
 
