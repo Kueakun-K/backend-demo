@@ -21,9 +21,9 @@ router.post('/login', async (req, res) => {
       Password
     })
     if (user) {
-      console.log(login_complete);
+      console.log('login_complete')
     } else {
-      console.log(login_fail);
+      console.log('login_fail')
     }
   })
 
